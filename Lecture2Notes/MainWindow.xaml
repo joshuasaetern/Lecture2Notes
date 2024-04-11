@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:Lecture2Notes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Canvas>
 
-    </Grid>
+        <Button x:Name="btnPopUpMessage" Content="Submit" Canvas.Left="378" Canvas.Top="234" Click="Button_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <Label Content="Please Enter Your Name
+               " Canvas.Left="330" Canvas.Top="142" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140"/>
+
+        <TextBox x:Name="textBoxName" Canvas.Left="335" TextWrapping="Wrap" Text="Enter Your Name Here" Canvas.Top="183" Width="130" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+    </Canvas>
 </Window>

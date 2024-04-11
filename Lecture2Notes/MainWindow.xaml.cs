@@ -20,5 +20,18 @@ namespace Lecture2Notes
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            //Checks to see if textBox is changed
+            if (textBoxName.Text == "Enter Your Name Here")
+            {
+                MessageBox.Show("Please change the textbox");
+            }
+            else
+            {
+                MessageBox.Show("Hello " + textBoxName.Text);
+            }
+        }
     }
 }
